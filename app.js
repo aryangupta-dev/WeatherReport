@@ -18,7 +18,7 @@ app.post("/",function(req,res){
     console.log(response.statusCode);
     response.on("data",function(data){
       const weather=JSON.parse(data);
-      head="The temperatue in the "+ weather.name+" is "+weather.main.temp+"'C";
+      head="The temperatue in the "+ weather.name+" is "+String(weather.main.temp)+"'C";
        description=weather.weather[0].description;
       const icon=weather.weather[0].icon;
       iconUrl="http://openweathermap.org/img/wn/"+ icon +"@2x.png"
