@@ -1,7 +1,37 @@
-html,
 body{
+  background-color: #21094e;
+}
+.head{
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-top:50px;
+  padding-bottom: 20px;
+}
+h1{
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+h3{
+  font-family: 'Noto Sans SC', sans-serif;
+
+  padding-bottom: 30px;
+  color: #FFFFFF;
   text-align: center;
 }
-.text-center{
-  padding-top: 50px;
+.last{
+  float:left;
+  padding-right: 40px;
+}
+.mid{
+  padding-top: 5px;
+}
+h2{
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  font-family: 'Architects Daughter', cursive;
+}
+form{
+  padding-top: 90px;
+
 }
