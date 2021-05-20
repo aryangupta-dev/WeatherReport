@@ -14,7 +14,7 @@ var description="";
 var iconUrl="";
 app.post("/",function(req,res){
   const cityName=req.body.cityName;
-  const url="https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid=96f0fdf3f8ed27504bc230eb08846cd4&units=metric";
+  const url="https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&/*appid*/";
   https.get(url,function(response){
     console.log(response.statusCode);
     response.on("data",function(data){
